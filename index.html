@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERSONAL PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="C:\Users\ashish agrawal\Desktop\guruskool\project\portfolio_main\logo1.jpg" height=70 width=70 class="logo">
+                <ul id="sidemenu">
+                    <li><a class="active" href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>GRAPHIC DESIGNER</p>
+                <h1>Hi I'm<span>Ashish Agrawal</span></h1>
+            </div>
+        </div>
+    </div>
+    <!--------About--------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="C:\Users\ashish agrawal\Desktop\guruskool\project\portfolio_main\profile_image.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a enthusiastic fresher looking for job. 
+                        I also have done B.Tech from DIT UNIVERSITY 
+                        and currently looking for in designing field</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <h3>Web Designing By DUCAT Noida</h3>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Bootstrap</li>
+                                <li>photoshop</li>
+                                <li>JAVASCRIPT</li>
+                                <li>jquery</li>
+                                <li>Dreamweaver</li>
+                                <li>C++(Basic)</li>
+                                <li>Adobe illustrator</li>
+                            </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <h3>Segmental Infrastrucutre and Advisory Pvt. Ltd.</h3>
+                        <li><span>08/2021-current</span><br>Assist. Highway Engineer</li>
+                        <h3>Gawar Construction Pvt. Ltd.</h3>
+                        <li><span>12/2020-07/2021</span><br>Site Engineer</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <h3>Beersheba Senior Secondary School<span>2015</span></h3>
+                        <li><span>2015</span> Higher Secondary School</li>
+                        <li><span>2013</span>  High School</li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------portfolio----------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+               <div class="work">
+                <img src="C:\Users\ashish agrawal\Desktop\guruskool\project\portfolio_main\mycandy1.png" alt="candy">
+                <div class="layer">
+                    <h3>mycandy</h3>
+                    <p>This is done by the photoshop. girl with candy</p>
+                    <a href="mycandy1.png"><i style='font-size:24px' class='fas'>&#xf35d;</i></a>
+                </div>
+               </div>
+               <div class="work">
+                <img src="C:\Users\ashish agrawal\Desktop\guruskool\project\portfolio_main\sample.png" alt="poster">
+                <div class="layer">
+                    <h3>Poster</h3>
+                    <p>This is done by the photoshop. poster of Ronaldo and Messi</p>
+                    <a href="sample.png"><i style='font-size:24px' class='fas'>&#xf35d;</i></a>
+                </div>   
+            </div>
+               <div class="work">
+                <img src="C:\Users\ashish agrawal\Desktop\guruskool\project\portfolio_main\coke_poster.png" alt="coke">
+                <div class="layer">
+                    <h3>Poster</h3>
+                    <p>This is done by the photoshop. cocacola poster</p>
+                    <a href="coke_poster.png"><i style='font-size:24px' class='fas'>&#xf35d;</i></a>
+                </div>
+            </div>
+               <div class="work">
+                <img src="C:\Users\ashish agrawal\Desktop\guruskool\project\portfolio_main\resturant.png" alt="restaurant" height="150%">
+                <div class="layer">
+                    <h3>front page</h3>
+                    <p>front page of the web page of the restaurant</p>
+                    <a href="resturant.png"><i style='font-size:24px' class='fas'>&#xf35d;</i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="C:\Users\ashish agrawal\Desktop\guruskool\project\portfolio_main\lion.png" alt="lion" height="150%">
+                <div class="layer">
+                    <h3>Lion in forest</h3>
+                    <p>theme was taken from harry potter series</p>
+                    <a href="lion.png"><i style='font-size:24px' class='fas'>&#xf35d;</i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="C:\Users\ashish agrawal\Desktop\guruskool\project\portfolio_main\invitation.png" alt="invitation card">
+                <div class="layer">
+                    <h3>Invitation</h3>
+                    <p>design a invitation card for the marriage</p>
+                    <a href="invitation.png"><i style='font-size:24px' class='fas'>&#xf35d;</i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="C:\Users\ashish agrawal\Desktop\guruskool\project\portfolio_main\ironpan_page.jpg" alt="landing page">
+                <div class="layer">
+                    <h3>front page</h3>
+                    <p>design a front page of iron man</p>
+                    <a href="ironpan_page.jpg"><i style='font-size:24px' class='fas'>&#xf35d;</i></a>
+                </div>
+            </div>
+        </div>
+            <a href="#" class=btn>see more</a>
+        </div>
+    </div>
+    
+        <!--    Services------->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fas fa-code"></i>
+                        <h2>Web designer</h2>
+                        <p>I have learn some skills to be  a good web designer and looking for new opportunities</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class='fas fa-crop-alt' style='font-size:36px'></i>
+                        <h2>Graphic designer</h2>
+                        <p>I have learn some skills to be  a good graphic designer and looking for new opportunities</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <!--------contact------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Info</h1>
+                    <p><i class="fas fa-paper-plane"></i>agarwalashish1997@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>7017125057</p>
+                    <div class="social-icons">
+                        <a href="http://facebook.com/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                       <!-- <a href=""><i class='fab fa-facebook'></i></a>-->
+                        <a href=""><i class='fab fa-instragram'></i></a>
+                        <a href=""><i class='fab fa-linkedin'></i></a>
+                    </div>
+                    <a href="C:\Users\ashish agrawal\Desktop\guruskool\project\portfolio_main\Ashish_agrawal_resume.pdf" download class="btn btn2">Download Cv</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message" row="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+       /* var tabcontents=document.getElementsByClassName("tab-contents");
+        */function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px"
+        }
+    </script>
+</body>
+</html>
